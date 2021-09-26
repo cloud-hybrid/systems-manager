@@ -1,0 +1,105 @@
+# Logging #
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostics #
+
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime #
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Linting && Coverage Libraries #
+
+lib-cov
+
+# Coverage #
+
+.nyc_output
+coverage
+*.lcov
+
+
+# Grunt Storage #
+
+.grunt
+
+# `node-waf` Configuration #
+
+.lock-wscript
+
+# Dependency Directories #
+
+node_modules/
+jspm_packages/
+
+# Types #
+
+type/
+types/
+typings/
+
+.node_repl_history
+
+.yarn-integrity
+
+# Environment Variable(s) #
+
+.env
+*.env
+
+.env.*
+*.env.*
+
+*.local
+
+.env.*.local
+.env.*.local.*
+
+.env.test
+.env.test.*
+
+# Caches #
+
+.npm
+
+.eslintcache
+
+.cache
+.cache/
+.caches/
+
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Next #
+
+.next
+
+# Distribution #
+
+dist
+build
+*.tgz
+*.tsbuildinfo
+
+build/Release
+
+# System & IDE #
+
+.DS_Store
+
+.idea
+.vscode
+.eclipse

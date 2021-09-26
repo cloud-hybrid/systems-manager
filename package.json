@@ -1,0 +1,22 @@
+{
+    "name": "@cloud-technology/systems-manager",
+    "version": "0.0.2",
+    "repository": "git+https://github.com/cloud-hybrid/systems-manager.git",
+    "scripts": {
+        "start": "node ./CLI.js",
+        "cli": "node ./CLI.js",
+        ".": "node ./CLI.js"
+    },
+    "license": "BSD-3-Clause",
+    "type": "module",
+    "exports": {
+        "default": [
+            "./CLI.js",
+            "./PUT.js"
+        ]
+    },
+    "dependencies": {
+        "@aws-sdk/client-ssm": "^3.34.0",
+        "aws-sdk": "^2.995.0"
+    }
+}
